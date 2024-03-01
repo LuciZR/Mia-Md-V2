@@ -15,7 +15,7 @@
      
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
+      "value": "true",
       "required" :false
     },
      
@@ -95,7 +95,7 @@
       "required" :false
     },
     "PREFIX": {
-      "description": "Enter your desired prefix for bot.",
+      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
       "value": "."
     },
     "OWNER_NUMBER": {
@@ -137,19 +137,9 @@
       "required": false 
     }
   }, 
-  "addons": [
-    {
-      "plan": "heroku-postgresql:basic"
-    } 
-  ],
+  "addons": [{ "plan": "heroku-postgresql:basic" }],
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
-  ],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "standard-2x"
-      }
-  }
+  ]
 }

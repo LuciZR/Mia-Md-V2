@@ -10,8 +10,11 @@ global.appUrl=process.env.APP_URL || ""                       // put your app ur
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
+
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
+
+
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -57,13 +60,17 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xx
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
+
+global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+
+
 module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
-  VERSION : process.env.VERSION || "V.1.2.8",
+  VERSION : process.env.VERSION || "V.1.2.9",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
@@ -71,7 +78,7 @@ module.exports = {
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
   ownername:process.env.OWNER_NAME|| "It'x Suhail",
 
-  sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
+
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
@@ -115,9 +122,7 @@ module.exports = {
 
 
 
-
-
-
+global.rank = "updated"
 global.isMongodb = false; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
