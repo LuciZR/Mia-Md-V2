@@ -2,7 +2,7 @@
 <p align="center"> Introducing Suhail_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
 
  
-<h3 align="center"> TESTING HEROKU BAN PROBLEM! </h3> 
+<h3 align="center"> <a href="https://github.com/SuhailTechInfo/Suhail-Md-Media"> GET PLUGINS </a>FOR SUHAIL_MD! </h3> 
 
 
 
@@ -102,21 +102,16 @@
 
 
 - Star ⭐ repo if you like this bot.
-- If any problem, then create [`+issue`](https://github.com/SuhailTechInfo/Suhail-Md/issues/new) or [`+Q&A`](https://github.com/SuhailTechInfo/Suhail-Md/discussions/new?category=q-a)!
+- If any problem, then create an [`+issue`](https://github.com/SuhailTechInfo/Suhail-Md/issues/new) Or ask anything here [`+Q&A`](https://github.com/SuhailTechInfo/Suhail-Md/discussions/new?category=q-a)!
 
-
-### Thanks To
-- [Sam Pamday](https://github.com/Sampandey001) 
-
-
-The Suhail_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE).
 
 
 <h2 align="center">  NOTICE
 </h2>
    
 ## 
+
 - *Suhail-Md is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
 - *In that case, I'm not responsible for banning your account.*
 - *Use Suhail-Md at your own risk by keeping this warning in mind.*
-- [`heroku`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FSuhailTechInfo%2FSuhail-)
+- Suhail_Md is made available under the [GPL-3 license](https://github.com/SuhailTechInfo/Suhail-Md/blob/main/LICENCE). [`hku`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FSuhailTechInfo%2FSuhail-)
