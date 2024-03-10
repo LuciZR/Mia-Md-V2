@@ -1,16 +1,16 @@
 {
-   "name": "suhail-md",
+   "name": "𝙼𝙸𝙰 𝙼𝙳 v2 ⚠︎",
    "version": "1.2.9",
-   "description": "Multi device whatsapp bot by SuhailTechInfo.",
+   "description": "Multi device whatsapp bot by LuciZR.",
    "main": "lib/smd.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name Suhail || node lib/smd.js",
-            "start": "pm2 start lib/smd.js --attach --name Suhail || node lib/smd.js",
-            "stop": "pm2 stop Suhail",
+            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name 𝙼𝙸𝙰-𝙼𝙳-⚠︎ || node lib/smd.js",
+            "start": "pm2 start lib/smd.js --attach --name 𝙼𝙸𝙰-𝙼𝙳-⚠︎ || node lib/smd.js",
+            "stop": "pm2 stop 𝙼𝙸𝙰-𝙼𝙳-⚠︎",
             "heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && mv temp1/.git .git && rm -rf temp1"
    },
-   "author": "SuhailTechInfo",
+   "author": "LuciZR",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
