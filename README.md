@@ -36,7 +36,7 @@
 ## Bot Support Groups
 <p align="center">
  
-<a href="https://chat.whatsapp.com/HuQXSSgC80hERPfi4D4D2i"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/Ht3eY7IGn5xFScqyPnrWQH"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
